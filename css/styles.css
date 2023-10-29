@@ -1,0 +1,237 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.iphone2 {display: none;}
+
+.row {margin: 0;}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+/* HEADINGS */
+
+.big__heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+.section__heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CUSTOMIZATION MADE ON BUTTONS */
+
+.btn1 {margin: 3.125rem 1.25rem 0 0;}
+
+/* CONTAINERS */
+
+.contain {padding: 7% 15%;}
+
+/* SECTIONS */
+.colored-section {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.white-section {background-color: #fff;}
+
+/* HEADER STARTS */
+
+/* title section */
+
+#title {
+  padding-bottom: 2%;
+  text-align: left;
+}
+
+.title__img {
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  margin-left: 1rem;
+}
+
+.header__contain {padding: 1% 15% 3%;}
+
+.con-fl {padding-left: 0;}
+
+/* navigation section */
+
+.navbar {padding-bottom: 4rem;}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: "Ubuntu";
+}
+
+.nav-item {
+  font-size: 1.25rem;
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+/* HEADER ENDS */
+
+/* FEATURES SECTION */
+
+#features {position: relative;}
+
+#features i {
+  font-size: 5rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features__title {font-size: 1.5rem;}
+
+#features i:hover {color: #ff4c68;}
+
+.feature__child div {padding: 5%;}
+
+.feature__description {color: #8f8f8f;}
+
+/* TESTIMONIAL & PRESS SECTION */
+
+/* TESTIMONIAL CONTAINER */
+
+#testimonials {padding: 3% 5%;}
+
+.testimonial1,
+.testimonial2 {padding: 5%;}
+
+.testimonial-text {padding: 0 2rem;}
+
+.testimonial__image {
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* PRESS CONTAINER */
+
+#press {
+  background-color: #ef8172;
+  padding: 3% 5%;
+}
+
+.press2 {margin: 20% 0;}
+
+.press__description{padding:0 5%;}
+
+/* PRICING SECTION */
+
+#pricing {padding: 100px;}
+
+.pricing-col {padding: 2% 3%;}
+
+.price__text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CTA SECTION */
+
+#cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 7% 10%;
+}
+
+.cta__img {
+  height: 330px;
+  width: 160px;
+  display: block;
+}
+
+/* FOOTER */
+
+footer {padding: 5% 10%;}
+
+footer i {margin: 16px;}
+
+.social__logo {
+  text-decoration: none;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+  font-size: 1.5rem;
+}
+
+.fa-facebook-f:hover {color: #3b5998;}
+.fa-instagram {color: #962fbf;}
+.fa-instagram:hover {color: #feda75;}
+.fa-x-twitter:hover {color: #00acee;}
+
+footer p {
+  margin-top: 15px;
+  color: #8f8f8f;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:1028px) {
+  .title__img {
+    width: 100%;
+    position: static;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    margin-top: 40px;
+  }
+  #title {text-align: center;}
+}
+
+@media (max-width:991px) {
+  .title__img {width:50%;}
+  .press__logo {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (max-width:480px) {
+  .header__contain {padding: 1% 3% 3%;}
+  .btn1 {margin: 1.2rem 0.25rem 0 0;}
+  .testimonial-text {font-size: 1.5rem;}
+  #press {
+    background-color: #ff4c68;
+    padding: 7% 6%;
+  }
+  .press__logo {
+    width: 70%;
+    margin: auto;
+  }
+  .press1 p,
+  .press3 p {margin-top: 16px;}
+  #pricing {padding: 50px;}
+  #cta {-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
+  .iphone {display: none;}
+  .iphone2 {
+    display: block;
+    margin-left: 1rem;
+  }
+  .cta__img {display: none;}
+  .cta__edit {display: -webkit-box;display: -ms-flexbox;display: flex;}
+  .section__heading {font-size: 1.5rem;}
+  .big__heading {font-size: 3rem;}
+}
